@@ -1,0 +1,17 @@
+.playlistcardleftbar{
+    display: inline-flex;
+    flex-direction: row;
+    margin: 15px;
+    align-items: center;
+}
+.playlistcardleftbar img{
+    object-fit: contain;
+    border-radius: 10px;
+    position: relative;
+    top: 0px;
+}
+.playlistcardleftbar p{
+    font-size: 25px;
+    margin-left: 15px;
+    color: white;
+}

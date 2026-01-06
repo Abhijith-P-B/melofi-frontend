@@ -1,0 +1,16 @@
+.rightbar {
+  display: flex;
+  flex-direction: column;
+
+  align-items: center;
+}
+
+
+.Artist_content{
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  justify-content: center;
+
+}
+

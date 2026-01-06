@@ -1,0 +1,41 @@
+.center_part_play{
+  margin-left: 350px; /* same as leftbar width */
+  height: 100vh;
+  overflow-y: auto;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 10px;
+}
+.heading{
+    height: 120px; 
+    width: 1000px; 
+    font-size: 20px; 
+    border-radius: 30px; 
+    background-color: #333333; 
+    color: white; 
+    border: none; 
+    cursor: pointer; 
+    margin-bottom: 20px; 
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+
+   
+}
+.play_top{
+    display: grid; 
+    grid-template-columns: auto 1fr; 
+    align-items: center; 
+    padding: 10px 10px; 
+    gap: 250px;
+}
+
+.playlist_img{
+  width: 100px;
+  height: 100px;
+  padding: 40px;
+  border-radius: 10px;
+}
+.playlist_name{
+    font-size: 30px;
+}

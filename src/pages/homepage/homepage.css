@@ -1,0 +1,121 @@
+
+
+
+.background{
+    background: linear-gradient(#000000, #0c3526);
+    height: 100vh;
+    width: 100vw;
+    overflow: hidden;  
+    display: grid; 
+    place-items: stretch; 
+}
+.grid_layout{
+    display: grid; 
+    grid-template-columns: 1fr 250px;
+    grid-template-rows: 100%; 
+    height: 100%; 
+    width: calc(100vw - 350px);
+    margin-left: 350px;
+}
+.leftbar { 
+    height: 100%;
+}
+
+.center_part{
+    height: 100%; 
+    overflow-y: auto; 
+    padding-left: 20px;   
+}
+
+.Melofihome{
+    color: white;
+    font-size: 40px;
+    padding-left: 25px;
+}
+.right_bar{
+    height: 100%; 
+    background-color: #425d53c6;  
+    padding: 10px;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+}
+.center_part_top { 
+    display: grid; 
+    grid-template-columns: auto 1fr; 
+    align-items: center; 
+    padding: 10px 0px; 
+    gap: 5px;
+}
+.logo_wrapper{
+    display: flex; 
+    align-items: center;
+}
+.Searchbar_wrapper{
+    display: flex; 
+    justify-content: center;
+}
+.Welcome_text{
+    color: white;
+    font-size: 20px;
+    font-weight: bolder;
+}
+.Welcome_text_wrapper{
+    padding-left: 30px;
+    padding-bottom: 3px;
+}
+.Suggested_text{
+    color: white;
+    padding: 2px;
+    font-size: 18px;
+    font-weight: bold;
+}
+.Suggested_playlists_wrapper{
+    display: flex;
+    flex-direction: column;
+    gap: 0px;
+}
+.Suggested_playlists{
+    display: grid;
+	grid-template-rows: 1fr;
+	grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  	justify-items: center;
+  	align-items: center;
+  	grid-auto-rows: auto;
+  	gap: 0
+}
+.Recent_songs{
+    display: grid;
+	grid-template-rows: 85px 85px;
+	grid-template-columns: 1fr 1fr 1fr;
+  	justify-items: center;
+  	align-items: center;
+  	grid-auto-rows: auto;
+  	gap: 0px;
+}
+/*.background {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+
+  font-size: 30px;
+
+  background: linear-gradient(#000000, #0c3526);
+  background-repeat: repeat;
+  background-size: cover;
+  height: 100vh;
+  min-width: 100vw;
+  width: max-content;
+  background-size: cover;
+  flex-direction: row;
+}
+  .searchbg{
+  background-color: #333333;
+  border: none;
+  border-radius: 25px;
+  width:500px;
+  color: white;
+  height: 55px;
+  font-size: 22px;
+}/*

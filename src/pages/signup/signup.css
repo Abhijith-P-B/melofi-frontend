@@ -1,0 +1,44 @@
+.Signup{
+    color:white
+}
+
+.user_name{
+    height: 49px;
+    width: 331px;
+    border-radius: 20px;
+    background: #4E4E4E;
+    border: none;
+    color: white;
+    font-size: medium;
+}
+
+.or{
+    color: white;
+    margin-top: 20px;
+}
+.google{
+    width:320px;
+    height: 53px;;
+    background: white;
+    color:black;
+    border-radius: 41px;
+    font-size: 16px;
+    display: flex;
+    flex-flow: row wrap;
+    margin-top: 10px;
+}
+.googletext{
+    padding-left: 10px;
+    margin-top: 14px;
+    font-size: 16px;
+
+}
+.googleimage{
+    padding-left: 15px;
+}
+.Alreadyaccnt{
+    color: white;
+    font-size: 16px;
+    padding-top: 10px;
+    padding-left: 100px;
+}

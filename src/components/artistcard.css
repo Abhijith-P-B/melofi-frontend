@@ -1,0 +1,19 @@
+.artistcardrightbar{
+    display: inline-flex;
+    flex-direction: row;
+    margin: 15px;
+    align-items: center;
+    
+}
+.artistcardrightbar img{
+    object-fit: contain;
+    border-radius: 50px;
+    position: relative;
+    top: 0px;
+
+}
+.artistcardrightbar p{
+    font-size: 23px;
+    margin-left: 15px;
+    color: white;
+}

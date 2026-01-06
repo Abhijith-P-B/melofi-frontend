@@ -1,0 +1,94 @@
+body {
+    padding: 0;
+    margin: 0;
+} 
+
+
+.loginbg{
+    background:
+        linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),
+        url(src/assets/bg1.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    min-height: 100vh;
+    min-width: 100%;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+    flex-direction: column;
+    font-size: 30px;
+    background-attachment: fixed;
+}
+ 
+
+
+
+.email{    
+    height: 49px;
+    width: 300px;
+    border-radius: 20px;
+    background: #4E4E4E;
+    border: none;
+    color: white;
+    margin-top: 35px;
+    font-size: medium;
+    padding-left: 30px;
+}
+.password{
+    height: 49px;
+    width: 300px;
+    margin-top: 30px;
+    background: #4E4E4E;
+    border-radius: 20px;
+    border: none;
+    color: white;
+    padding-left: 30px;
+    font-size: medium;
+}
+.signin{
+    color:white;
+}
+.loginbtn{
+    margin-top: 30px;
+    color:white;
+    background:rgb(0, 104, 83);
+    border-radius: 20px;
+    border:none;
+    width: 331px;
+    height:49px;
+    font-size: 24px;
+    cursor: pointer;
+    transition: 0.6s;
+}
+
+.loginbtn:hover{
+    margin-top: 30px;
+    color:black;
+    background:rgb(0, 191, 255);
+    border-radius: 20px;
+    border:none;
+    width: 331px;
+    height:49px;
+    font-size: 24px;
+    cursor: pointer;
+    opacity: 70%;
+    font: bold;
+
+}
+.Donthaveaccount{
+    color: white;
+    font-size: 16px;
+    margin-top: 50px;
+}
+.createnew{
+    text-decoration: none;
+    color: white;
+}
+.forgotpass{
+    color: white;
+    font-size: medium;
+    margin-left: 200px;
+}
