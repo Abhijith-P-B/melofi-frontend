@@ -49,7 +49,7 @@ const HomePage = () => {
                                 </div>
                                 <div className="Recent_songs">
                                     {
-                                        Mocksongdata.map((song) => (<SongCardSmall key={song.id} SongBanner={song.SongBanner} SongName={song.SongName} SingerName={song.SingerName}/>))
+                                        Mocksongdata.map((song) => (<Link to={`/Song/${song.id}`} key={song.id}><SongCardSmall  SongBanner={song.SongBanner} SongName={song.SongName} SingerName={song.SingerName}/></Link>))
                                     } 
                                 </div>
                             </div>

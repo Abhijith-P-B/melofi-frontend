@@ -11,6 +11,7 @@ import Mocksongdata from "../../data/mocksongdata.jsx"
 import "./playlistview.css"
 import Profilebtn from "../../components/profilebutton.jsx"
 import { useParams } from "react-router-dom"
+import SongCardLong from "../../components/songcardlong.jsx"
 const Playlistview = () => {
     const {id} =useParams();
     
@@ -27,13 +28,18 @@ const Playlistview = () => {
             </div>
             <div className="center_part_play">
                 <div className="play_top">
-                    <div className="heading">
-                        <img src={playlist.PlaylistBanner} alt={playlist.PlaylistName} className="playlist_img"/>
-                        <h1 className="playlist_name"> {playlist.PlaylistName} </h1>
-                    </div>
-                    <div className="profile_wrapper">
+                        <div className="Playdetails_wrapper">
+                            <img src={playlist.PlaylistBanner} alt={playlist.PlaylistName} className="playlist_img"/>
+                            <h1 className="playlist_name"> {playlist.PlaylistName} </h1>
+                        </div>
                         <Profilebtn/>
-                    </div>
+                </div>
+                <div className="Songs_long">
+                 <div> </div>
+                 <SongCardLong/>
+                 <SongCardLong/>
+                 <SongCardLong/>
+                 
                 </div>
             </div>
             

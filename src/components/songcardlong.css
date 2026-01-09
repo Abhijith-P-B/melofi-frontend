@@ -1,0 +1,21 @@
+.Songcardlong{
+    display: inline-flex;
+    flex-direction: row;
+    min-width: 400px;
+    background:#333333;
+    border-radius: 10px;
+    
+}
+.Songcardlong img{
+    object-fit: contain;
+    border-radius: 10px;
+    position: relative;
+}
+.songnamelong{
+    font-size: 10px;
+}
+.Share{
+    display: inline;
+    background: #333333;
+    
+}

@@ -18,7 +18,7 @@ const Leftbar = () => {
                 <p className="Play_text">Your Playlists</p>
                 
                     {
-                        Mockplaylistdata.map((playlist) => (<Link to="/Playlist"><PlaylistCard key={playlist.id} PlaylistBanner={playlist.PlaylistBanner} PlaylistName={playlist.PlaylistName} /></Link>))
+                        Mockplaylistdata.map((playlist) => (<Link to={`/Playlist/${playlist.id}`} key={playlist.id} ><PlaylistCard key={playlist.id} PlaylistBanner={playlist.PlaylistBanner} PlaylistName={playlist.PlaylistName} /></Link>))
                     }
                
             </div>
