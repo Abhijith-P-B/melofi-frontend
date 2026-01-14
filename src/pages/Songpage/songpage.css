@@ -1,20 +1,86 @@
-.center_top_song{
+.center_part_song{
     display: grid; 
-    grid-template-columns: auto 1fr; 
-    align-items: center; 
-    padding: 10px 20px; 
-    gap: 1050px;
+    grid-template-columns: 3fr 1fr; 
+    padding: 10px ;
+    padding-left: 30px; 
+    gap: 0px;
+    margin-left: 350px; 
 }
-.center_song_rest{
-   display: grid; 
-    grid-template-columns: auto 1fr; 
 
-}
 .Song_welcome{
     color:  white;
 }
 .Song_image{
-    width: 400px;
-    height: 400px;
+   width: 450px;
     border-radius: 50px;
+}
+.Song_image_wrapper{
+    display: block;
+    justify-self: center;
+    padding-left: 100px;
+   
+}
+.center_song_right{
+    display: flex;
+    flex-flow: column;
+    gap: 20px;
+    align-items: center;
+    
+    
+}   
+.queue_songs{
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr ;
+    background-color: #444444;
+    align-items: center;
+    height: 40vh;
+    border-radius: 30px;
+    justify-content: center;
+    padding-bottom: 30px;
+}
+.queue_songs h2{
+    color: white;
+    justify-self: center;
+    
+}
+.Artist{
+    background-color: #444444;
+    display: inline-flex;
+    padding-inline-start: 10px;
+    padding-inline-end: 10px;
+    flex-flow: column;
+    border-radius: 30px;
+    align-items: center;
+
+}
+.Artist img{
+    border-radius: 10px;
+}
+.Artist h2{
+    color: white;
+}
+.Artist p{
+    color: white;
+    font-size: 20px;
+}
+.Heart_share{
+  background: none;
+  border: none;
+  color: white;
+  font-size: 32px;   
+  cursor: pointer;
+  padding: 20px;  
+}
+.Heart_share :hover{
+  background: none;
+  border: none;
+  color: rgb(255, 47, 0);
+  font-size: 32px;   
+  cursor: pointer;
+  
+}
+.Like_share{
+    background: #333333;
+	border-radius: 20px;
+    justify-self: center;
 }

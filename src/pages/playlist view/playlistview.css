@@ -19,7 +19,7 @@
     margin-bottom: 20px; 
     display: inline-flex;
     align-items: center;
-    justify-self: center;
+    justify-self: center; 
 }
 .play_top{
     display: grid; 

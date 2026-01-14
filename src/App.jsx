@@ -5,6 +5,8 @@ import HomePage from './pages/homepage/homepage.jsx'
 import Playlistview from './pages/playlist view/playlistview.jsx'
 import {BrowserRouter, Route, Routes} from "react-router-dom"
 import Songpage from './pages/Songpage/songpage.jsx'
+import Search from './pages/search page/search.jsx'
+import Profile from './pages/Profile/profile.jsx'
 function App() {
 
   return (
@@ -17,6 +19,8 @@ function App() {
       <Route path="/Homepage" element={<HomePage/>}/>
       <Route path="/Playlist/:id" element={<Playlistview/>}/>
       <Route path="/Song/:id" element={<Songpage/>}/>
+      <Route path="/Search" element={<Search/>}/>
+      <Route path="/Profile" element={<Profile/>}/>
     </Routes>
     </BrowserRouter>
     </>

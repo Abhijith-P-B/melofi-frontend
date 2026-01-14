@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom'
 const Searchbar = () =>{
     return (
         <>
-         <Link to="/Login" className='LinkSearch'>
+         <Link to="/Search" className='LinkSearch'>
             
             <p className='Searchtext'>
             Search..

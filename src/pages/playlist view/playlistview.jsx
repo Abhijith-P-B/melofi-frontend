@@ -35,10 +35,13 @@ const Playlistview = () => {
                         <Profilebtn/>
                 </div>
                 <div className="Songs_long">
-                 <div> </div>
-                 <SongCardLong/>
-                 <SongCardLong/>
-                 <SongCardLong/>
+                  <SongCardLong/>
+                  <SongCardLong/>
+                  <SongCardLong/>
+                  <SongCardLong/>
+                  <SongCardLong/>
+                  <SongCardLong/>
+                  
                  
                 </div>
             </div>
